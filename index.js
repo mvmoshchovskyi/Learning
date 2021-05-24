@@ -12,7 +12,7 @@ console.log(swapFirtsToLast(123456789));
 
 function addOne(n) {
     n = n.toString()
-    n = 1 + n.slice(0, n.length) + 1;
+    n = 1 + n + 1;
     return Number(n)
 }
 
