@@ -6,17 +6,17 @@ function swapFirtsToLast(n) {
     return Number(n)
 }
 
-console.log(swapFirtsToLast(123456789));
+console.log(swapFirtsToLast(223456789));
 
 // given a natural number n you need to add 1 to the start and to the end of the number n
 
 function addOne(n) {
     n = n.toString()
-    n = 1 + n.slice(0, n.length) + 1;
+    n = 1 + n + 1;
     return Number(n)
 }
 
-console.log(addOne(12345678));
+console.log(addOne(33456789));
 
 // 332
 
@@ -45,7 +45,7 @@ function lagrange(n) {
     return false
 }
 
-console.log(lagrange(50));
+console.log(lagrange(30))
 
 
 function test(x, y, z, t) {
@@ -53,3 +53,5 @@ function test(x, y, z, t) {
 }
 
 console.log(test(1, 2, 3, 6));
+
+
